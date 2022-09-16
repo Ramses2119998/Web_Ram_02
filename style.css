@@ -9,6 +9,7 @@
     margin: 0 auto;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/8552348_3609060.jpg);
+    max-width: 100%;
     background-position: center;
     background-size:cover;
     padding-left: 8%;
@@ -60,27 +61,52 @@ nav ul li a{
 .row{
     display: flex;
     height: 88%;
-    align-items: center;
+    
+}
+.row .info{
+    
+    border: 5px solid darkblue;/*esta linea de codigo es utilizada para saber a la visat el tamanio de nustros div */
+    height: 500px;
+    width: 500px;
+    padding-top: 10px;
 }
 
-.col{
-    flex-basis: 50%;
+
+.cards{
+    overflow: hidden;
+    max-width: 100%;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    flex-wrap: wrap;
+    border: 5px solid darkblue;/*esta linea de codigo es utilizada para saber a la visat el tamanio de nustros div */
+    /*flex-basis: 50%;
+    display: flex;
+    padding-right: 10%;
+    flex-direction: row;
+   
+    justify-content: space-between;*/
 }
 
 h1{
+    position: relative;
+    top: 10px;
     color: #fff;
     font-size: 80px;
     
 }
 
 p{
+    position: relative;
+    top: 10px;
+    text-align: center;
     color: #fff;
     font-size: 11px;
     line-height: 15px;
 }
 
 button{
-
+    position: static;
     width: 180px;
     color: #000;
     font-size: 12px;
@@ -107,28 +133,35 @@ button{
 }
 
 .card1{
+    flex-wrap: wrap;
     background-image: url(img/DSC_0846.jpg);
 }
 
 .card2{
+    flex-wrap: wrap;
     background-image: url(img/13295448_5119486.jpg);
 }
 
 .card3{
+    flex-wrap: wrap;
     background-image: url(img/dormakaba-Blog-Post-pictures-_-1024-x-683-83.jpg);
 }
 
 .card4{
+    flex-wrap: wrap;
     background-image: url(img/7454200_3659672.jpg);
 }
 .card5{
+    flex-wrap: wrap;
     background-image: url(img/7454200_3659672.jpg);
 }
 .card6{
+    flex-wrap: wrap;
     background-image: url(img/7454200_3659672.jpg);
 }
 
 .card:hover{
+    
     transform: translateY(-10px);
 }
 

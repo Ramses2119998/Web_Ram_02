@@ -6,19 +6,25 @@
 
 .container{
     width: 100%;
+    margin: 0 auto;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/4102879_971.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/8552348_3609060.jpg);
     background-position: center;
     background-size:cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
+    
 }
 
 .navbar{
     height: 12%;
     display:flex;
     align-items: center;
+}
+
+.menu a:hover {
+	border-bottom: 2px solid #1b1eec;
 }
 
 .logo{
@@ -101,7 +107,7 @@ button{
 }
 
 .card1{
-    background-image: url(img/1.jpg);
+    background-image: url(img/DSC_0846.jpg);
 }
 
 .card2{

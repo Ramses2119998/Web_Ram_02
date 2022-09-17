@@ -8,7 +8,7 @@
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/8552348_3609060.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/shallow-focus-shot-of-prickly-pear-cactus.jpg);
     max-width: 100%;
     background-position: center;
     background-size:cover;
@@ -65,7 +65,7 @@ nav ul li a{
 }
 .row .info{
     
-    border: 5px solid darkblue;/*esta linea de codigo es utilizada para saber a la visat el tamanio de nustros div */
+    /*border: 5px solid darkblue;esta linea de codigo es utilizada para saber a la visat el tamanio de nustros div */
     height: 500px;
     width: 500px;
     padding-top: 10px;
@@ -79,30 +79,30 @@ nav ul li a{
     width: 1000px;
     height: 500px;
     flex-wrap: wrap;
-    border: 5px solid darkblue;/*esta linea de codigo es utilizada para saber a la visat el tamanio de nustros div */
-    /*flex-basis: 50%;
+    /*border: 5px solid darkblue;esta linea de codigo es utilizada para saber a la visat el tamanio de nustros div */
+    flex-basis: 50%;
     display: flex;
     padding-right: 10%;
     flex-direction: row;
-   
-    justify-content: space-between;*/
+    justify-content: space-between;
 }
 
 h1{
     position: relative;
     top: 10px;
     color: #fff;
-    font-size: 80px;
+    font-size: 50px;
     
 }
 
 p{
     position: relative;
     top: 10px;
-    text-align: center;
+    text-align:justify;
     color: #fff;
     font-size: 11px;
     line-height: 15px;
+    word-wrap: break-word;
 }
 
 button{
@@ -119,6 +119,7 @@ button{
 }
 
 .card{
+    max-width:100%;
     width: 200px;
     height: 230px;
     display: inline-block;
@@ -130,34 +131,54 @@ button{
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+    /*transform: rotateY(-25deg);*/
+   
 }
 
 .card1{
     flex-wrap: wrap;
     background-image: url(img/DSC_0846.jpg);
 }
+.card1:hover {
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
 
 .card2{
     flex-wrap: wrap;
-    background-image: url(img/13295448_5119486.jpg);
+    background-image: url(img/stack-of-books-with-pencil-holder-and-glasses-against-chalkboard.jpg);
+}
+.card2:hover {
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
 }
 
 .card3{
     flex-wrap: wrap;
     background-image: url(img/dormakaba-Blog-Post-pictures-_-1024-x-683-83.jpg);
 }
+.card3:hover {
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
 
 .card4{
     flex-wrap: wrap;
     background-image: url(img/7454200_3659672.jpg);
 }
+.card4:hover {
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
 .card5{
     flex-wrap: wrap;
     background-image: url(img/7454200_3659672.jpg);
 }
+.card5:hover {
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
 .card6{
     flex-wrap: wrap;
     background-image: url(img/7454200_3659672.jpg);
+}
+.card6:hover {
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
 }
 
 .card:hover{

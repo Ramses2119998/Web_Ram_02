@@ -44,7 +44,7 @@
 
 nav{
     flex: 1;
-    text-align: right;
+   text-align: right; 
 }
 
 nav ul li{
@@ -57,9 +57,10 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
 
 }
+
 
 .row{
     flex-wrap: wrap;
@@ -103,7 +104,7 @@ p{
     position: relative;
     top: 10px;
     text-align:justify;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 11px;
     line-height: 15px;
     word-wrap: break-word;
@@ -157,7 +158,7 @@ button{
 
 .card3{
     flex-wrap: wrap;
-    background-image: url(img/stack-of-books-with-pencil-holder-and-glasses-against-chalkboard.jpg);
+    background-image: url(img/5083803_2650401.jpg);
 }
 .card3:hover {
     box-shadow: 0 25px 40px rgba(0,0,0,0.5);
@@ -187,7 +188,7 @@ button{
 
 .card7{
     flex-wrap: wrap;
-    background-image: url(img/u6qfBBkF_400x400.jpg);
+    background-image: url(img/Twitter_Logo_White_On_Blue.png);
 }
 .card7:hover {
     box-shadow: 0 25px 40px rgba(0,0,0,0.5);
@@ -207,7 +208,8 @@ button{
 }
 
 h5{
-    color: #fff;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 5px #999;
 }
 

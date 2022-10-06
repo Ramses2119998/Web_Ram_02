@@ -22,11 +22,12 @@ const typed = new Typed('.typed', {
 
 const typed2 = new Typed('.typed2', {
 	strings: [
-		'<i class="direct">Proyecto 1</i>',
-		'<i class="direct">Proyecto2</i>',
-		'<i class="direct">Proyecto3</i>',
-		'<i class="direct">Proyecto4</i>',
-		'<i class="direct">Proyecto5</i>'
+		'<i class="direct">Plataforma</i>',
+		'<i class="direct">Documentacion</i>',
+		'<i class="direct">Temas de JS</i>',
+		'<i class="direct">Python</i>',
+		'<i class="direct">C#</i>',
+		'<i class="direct">Java</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
